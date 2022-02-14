@@ -4,7 +4,6 @@ import com.robinfood.encuestas.domain.RespuestasOptsMultiple;
 import com.robinfood.encuestas.dto.RespuestasOptsMultipleDTO;
 
 import org.mapstruct.Mapper;
-import org.mapstruct.Mapping;
 
 import java.util.List;
 

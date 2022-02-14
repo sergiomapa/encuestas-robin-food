@@ -3,21 +3,17 @@ package com.robinfood.encuestas.domain;
 import java.util.ArrayList;
 import java.util.List;
 
-import java.util.Date;
 
 import javax.persistence.*;
 import javax.validation.constraints.*;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonInclude;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
-import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
 /**
 *	Entidad de Opciones

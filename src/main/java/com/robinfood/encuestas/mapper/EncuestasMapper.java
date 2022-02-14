@@ -4,9 +4,6 @@ import com.robinfood.encuestas.domain.Encuestas;
 import com.robinfood.encuestas.dto.EncuestasDTO;
 
 import org.mapstruct.Mapper;
-import org.mapstruct.Mapping;
-import org.mapstruct.factory.Mappers;
-import org.springframework.stereotype.Component;
 
 import java.util.List;
 

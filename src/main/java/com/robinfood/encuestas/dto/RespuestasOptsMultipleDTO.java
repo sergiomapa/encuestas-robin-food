@@ -7,10 +7,6 @@ import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
-import java.sql.*;
-
-import java.util.Date;
-
 import javax.validation.constraints.*;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;

@@ -3,8 +3,6 @@ package com.robinfood.encuestas.domain;
 import java.util.ArrayList;
 import java.util.List;
 
-import java.util.Date;
-
 import javax.persistence.*;
 import javax.validation.constraints.*;
 

@@ -7,13 +7,8 @@ import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
-import java.sql.*;
-
 import java.util.Date;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.SequenceGenerator;
 import javax.validation.constraints.*;
 
 

@@ -2,13 +2,10 @@ package com.robinfood.encuestas.mapper;
 
 import com.robinfood.encuestas.domain.Respuestas;
 import com.robinfood.encuestas.dto.FormatoRespuestaCompletaDTO;
-import com.robinfood.encuestas.dto.RespuestasDTO;
 
 import org.mapstruct.Mapper;
-import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
 
-import java.util.List;
 
 
 /**

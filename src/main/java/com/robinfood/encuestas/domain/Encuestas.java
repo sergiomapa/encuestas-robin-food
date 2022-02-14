@@ -1,15 +1,11 @@
 package com.robinfood.encuestas.domain;
 
-import java.util.ArrayList;
 import java.util.List;
 
-import java.util.Date;
 
 import javax.persistence.*;
 import javax.validation.constraints.*;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import lombok.AllArgsConstructor;
