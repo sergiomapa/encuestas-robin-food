@@ -34,14 +34,14 @@ class RespuestasServiceImplTest {
 	void testSave() {
 		
 		RespuestasAbiertasDTO respuAbierta = RespuestasAbiertasDTO.builder()
-				.idpregunta(10)
+				.idpregunta(1)
 				.idrespuestaabierta(1)
 				.idrespuestaencuesta(1)
 				.respuesta("Me encantaría. El café es delicioso")
 				.build();
 		
 		RespuestasAbiertasDTO respuAbierta2 = RespuestasAbiertasDTO.builder()
-				.idpregunta(10)
+				.idpregunta(1)
 				.idrespuestaabierta(2)
 				.idrespuestaencuesta(1)
 				.respuesta("Prefiero el americano")
@@ -52,14 +52,14 @@ class RespuestasServiceImplTest {
 		listaRespuAbiertas.add(respuAbierta2);
 		
 		RespuestasOptsMultipleDTO respuOptMultiple = RespuestasOptsMultipleDTO.builder()
-				.idpregunta(10)
+				.idpregunta(1)
 				.idrespuestaencuesta(1)
 				.idrespuestamultiple(1)
 				.idopcion(2)
 				.build();
 		
 		RespuestasOptsMultipleDTO respuOptMultiple2 = RespuestasOptsMultipleDTO.builder()
-				.idpregunta(10)
+				.idpregunta(1)
 				.idrespuestaencuesta(1)
 				.idrespuestamultiple(2)
 				.idopcion(3)
@@ -70,7 +70,7 @@ class RespuestasServiceImplTest {
 		listaRespusOptMultiple.add(respuOptMultiple2);
 		
 		FormatoRespuestaCompletaDTO respuesta = FormatoRespuestaCompletaDTO.builder()
-				.idencuesta(10)
+				.idencuesta(1)
 				.nombreencuestado("Robin")
 				.listrespuestasabiertas(listaRespuAbiertas)
 				.listrespuestasoptmultiple(listaRespusOptMultiple)				

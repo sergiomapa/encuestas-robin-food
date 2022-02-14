@@ -60,21 +60,21 @@ class RespuestasRestControllerTest {
 	void testSave() throws Exception {
 				
 		Respuestas respuestaEntity = Respuestas.builder()
-				.idencuesta(10)
+				.idencuesta(1)
 				.idRespuesta(1)
 				.nombreencuestado("Robin")
 				.fecharegistro(new Date())
 				.build();
 		
 		RespuestasAbiertasDTO respuAbierta = RespuestasAbiertasDTO.builder()
-				.idpregunta(10)
+				.idpregunta(1)
 				.idrespuestaabierta(1)
 				.idrespuestaencuesta(1)
 				.respuesta("Me encantaría. El café es delicioso")
 				.build();
 		
 		RespuestasAbiertasDTO respuAbierta2 = RespuestasAbiertasDTO.builder()
-				.idpregunta(10)
+				.idpregunta(1)
 				.idrespuestaabierta(2)
 				.idrespuestaencuesta(1)
 				.respuesta("Prefiero el americano")
@@ -85,14 +85,14 @@ class RespuestasRestControllerTest {
 		listaRespuAbiertas.add(respuAbierta2);
 		
 		RespuestasOptsMultipleDTO respuOptMultiple = RespuestasOptsMultipleDTO.builder()
-				.idpregunta(10)
+				.idpregunta(1)
 				.idrespuestaencuesta(1)
 				.idrespuestamultiple(1)
 				.idopcion(2)
 				.build();
 		
 		RespuestasOptsMultipleDTO respuOptMultiple2 = RespuestasOptsMultipleDTO.builder()
-				.idpregunta(10)
+				.idpregunta(1)
 				.idrespuestaencuesta(1)
 				.idrespuestamultiple(2)
 				.idopcion(3)
@@ -103,7 +103,7 @@ class RespuestasRestControllerTest {
 		listaRespusOptMultiple.add(respuOptMultiple2);
 		
 		FormatoRespuestaCompletaDTO respuesta = FormatoRespuestaCompletaDTO.builder()
-				.idencuesta(10)
+				.idencuesta(1)
 				.nombreencuestado("Robin")
 				.listrespuestasabiertas(listaRespuAbiertas)
 				.listrespuestasoptmultiple(listaRespusOptMultiple)				
